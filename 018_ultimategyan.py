@@ -1,9 +1,9 @@
 def check_even_odd():
     n = int(input("Enter a number to check Even/Odd: "))
     if n % 2 == 0:
-        return f"{n} is Even"
+        return f"{n} is Even"   
     return f"{n} is Odd"
-
+# here i am using f function you can simply use normal concatination
 def check_prime():
     n = int(input("Enter a number to check Prime: "))
     if n <= 1:
